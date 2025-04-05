@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --hover-color: rgba(218, 216, 216, 0.458);   
+}
+
+.dark-theme {
+  --bg-color: black;
+  --text-color: #e69c9c;
+  --hover-color: rgba(67, 67, 67, 0.2); 
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  /* transition: all 0.3s ease-in-out; */
+}
+
+::-webkit-scrollbar {
+  width: 4px;  
+  height: 4px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #3ea6ff, var(--text-color));  
+  border-radius: 10px;  
+} 
+ 
+

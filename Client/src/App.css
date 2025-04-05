@@ -1,0 +1,15 @@
+.Container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh; 
+}    
+
+.main{
+    display : flex;
+    flex-direction : container; 
+    flex-direction: column;
+}
+
+.wrapper{
+    padding : 22px 56px;
+}

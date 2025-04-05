@@ -1,0 +1,49 @@
+
+.commentsCont {
+    width: 100%;
+    padding: 10px;
+  } 
+  .newComm {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .commentsavtar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .commentsinput {
+    border: none;
+    border-bottom: 1px solid var(--text-color); /* Replace with the theme's soft color */
+    color: var(--text-color); /* Replace with the theme's text color */
+    background-color: transparent;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  /* Wrapper for the buttons */
+  .commbtnwraper {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Style for the comment buttons */
+  .addnewcomm {
+    border: 1px solid #3ea6ff;
+    border-radius  :50%;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--text-color); /* Replace with the theme's text color */
+    transition: color 0.3s ease;
+  }
+  
+  .addnewcomm:hover {
+    color: var(--bg-color);
+    background-color: var(--text-color)
+  }
+  

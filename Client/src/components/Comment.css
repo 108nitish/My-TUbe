@@ -1,0 +1,35 @@
+/* Container for the entire comment section */
+.commcont {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px;
+  } 
+  .commimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  } 
+  .commdet {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--text-color); 
+  }
+  
+  .commname {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .commdate {
+    font-size: 12px;
+    font-weight: 400;
+    color: #3ea6ff; 
+    margin-left: 5px;
+  } 
+  .commtext {
+    font-size: 13px;
+    color: var(--text-color);
+  }
+  

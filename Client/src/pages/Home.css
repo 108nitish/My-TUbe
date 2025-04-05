@@ -1,0 +1,24 @@
+
+.homecont {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));  
+  gap: 20px; 
+  padding: 20px; 
+}
+
+
+@media (max-width: 768px) {
+  .homecont {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  
+    gap: 15px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .homecont {
+    grid-template-columns: 1fr; 
+    gap: 10px;
+    padding: 10px;
+  }
+}

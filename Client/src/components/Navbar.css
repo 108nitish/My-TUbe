@@ -1,0 +1,165 @@
+/* 🏠 Navbar Styles */
+.navcont {
+    position: sticky;
+    top: 0px;
+    width: calc(100vw - 240px); 
+    background-color: var(--bg-color);
+    height: 56px;
+    z-index: 100; 
+    margin-left: 1px;
+}
+
+/* 📌 Navbar Wrapper */
+.navwrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 20px;
+}
+
+/* 🔍 Search Bar */
+.navsearch {
+    margin-left : 235px;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    background: #f1f1f1;
+    border-radius: 20px;
+    padding: 5px 12px;
+    gap: 5px;
+    border: 1px solid #ddd;
+}
+
+.navinput { 
+    border: none;
+    background: none;
+    outline: none;
+    flex: 1;
+    color: var(--text-color);
+}
+
+/* 🔎 Search Icon */
+.search-icon {
+    cursor: pointer;
+    color: var(--text-color);
+    transition: transform 0.2s ease;
+}
+
+.search-icon:hover {
+    transform: scale(1.1);
+}
+
+/* 👤 User Section */
+.navuser {
+    display: flex;
+    align-items: center;
+    gap: 42px; 
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+/* 📹 Upload Icon */
+.upload-icon {
+    cursor: pointer;
+    color: var(--text-color);
+    transition: transform 0.2s ease;
+}
+
+.upload-icon:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+/* 🚪 Logout Icon */
+.logout-icon {
+    cursor: pointer;
+    color: #ff4d4d;
+    transition: transform 0.2s ease;
+}
+
+.logout-icon:hover {
+    transform: scale(1.1);
+}
+
+/* 🖼️ User Avatar */
+.navavtar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #999;
+    object-fit: cover;
+}
+
+/* ✨ Username */
+.username {
+    font-size: 20px;
+}
+
+/* 🔘 Sign In Button */
+.navbtn {
+    padding: 6px 15px;
+    background: none;
+    border: 1px solid #3ea6ff;
+    color: #3ea6ff;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width : 150px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.navbtn:hover {
+    background: #3ea6ff;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+.user-section {
+    position: relative;
+    cursor: pointer;
+}
+  
+.user-avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
+.dropdown-menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    top:0;
+    color : var(--text-color);
+    background: var(--bg-color);
+    border: 1px solid var(--text-color);
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 150;
+    min-width: 150px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+  
+.dropdown-item {
+    display: block;
+    color: var(--text-color);
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+  
+.dropdown-item:hover {
+    background: var(--hover-color);
+}
